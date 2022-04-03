@@ -1,0 +1,161 @@
+* {
+    margin: 0;  
+    padding: 0;
+    background: #f3eeda;    
+    }
+    
+    body {    
+    font-family: "微軟雅黑",Arial,sans-serif;  
+    }
+
+    .prizeTop {
+        width: 325px;
+        height: 250px;         
+        margin: 0 auto 0 auto;       
+        position: relative;      
+        background-image: url(../img/shanguan.jpg);
+        background-size: 325px;
+        background-repeat: no-repeat;
+        background-position: relative;
+    }
+
+    .prizeRslt {
+        width: 325px;    
+        height: 90px;        
+        margin: 10px auto 0 auto;       
+        position: relative;      
+        background: #f3eeda;
+
+        text-align: center;
+        font-style: italic;
+    
+        border: 5px solid #de4d4d;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .prizeDesc {
+        width: 275px;    
+        height: auto;        
+        margin: 10px auto 0 auto;       
+        position: relative;      
+        background: #f3eeda;
+
+        border: 5px solid #de4d4d;
+        border-radius: 20px 20px 20px 20px;
+
+        padding: 25px;
+    }
+
+    
+    .prize { 
+    width: 325px;   
+    height: 325px;   
+    margin: 10px auto 0 auto;    
+    position: relative;   
+    background: #f3eeda;   
+    }
+    
+    .prize i { 
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #fff;
+    font-size: 13px;
+    position: absolute;
+    text-align: center;
+    line-height: 80px;
+    background: #de4d4d;
+    font-style: normal;
+    color: #fff;
+    }
+    
+    .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    margin-left: -40px;
+    margin-top: -40px;
+    background: #de4d4d;
+    outline: none;
+    font-family: "微軟雅黑",Arial,sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    }
+    
+    .prize i.active {
+    background-color: #fff56c;
+    color: black;
+    animation-name: rdtyw;
+    animation-duration: 3s;
+    box-shadow: 0px 0px 18px 8px lightgoldenrodyellow;
+    z-index: 1;
+    }
+    
+    @keyframes rdtyw {
+    from {background-color: gold;}
+    to {background-color: #fff56c;}
+    }
+
+
+
+    .prize i:nth-child(1) {
+    left: 0;
+    }
+    
+    .prize i:nth-child(2) {
+    left: 81px;
+    }
+    
+    .prize i:nth-child(3) {
+    left: 162px;
+    }
+    
+    .prize i:nth-child(4) {
+    left: 243px;
+    }
+    
+    .prize i:nth-child(5) {
+    right: 0;
+    top: 81px;
+    }
+    
+    .prize i:nth-child(6) {
+    right: 0;
+    top: 162px;
+    }
+    
+    .prize i:nth-child(7) {
+    right: 0;
+    top: 243px;
+    }
+    
+    .prize i:nth-child(8) {
+    left: 162px;
+    bottom: 0;
+    }
+    
+    .prize i:nth-child(9) {
+    left: 81px;
+    bottom: 0;
+    }
+    
+    .prize i:nth-child(10) {
+    left: 0;
+    bottom: 0;
+    }
+    
+    .prize i:nth-child(11) {
+    left: 0;
+    top: 162px;
+    }
+    
+    .prize i:nth-child(12) {
+    left: 0;
+    top: 81px;
+    }
