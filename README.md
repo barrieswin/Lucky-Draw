@@ -1,4 +1,4 @@
-# Lucky-Draw
+# LuckyDraw
 Lucky Draw Game
 主題: 火鍋餐廳抽獎小遊戲
 
