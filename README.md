@@ -1,5 +1,7 @@
 # LuckyDraw
 Lucky Draw Game
+說明請詳見 作品LuckyDraw.pdf
+
 作品: 餐廳抽獎小遊戲
 設計者: 陳琍達
 設計源由: 我在上官木桶鍋餐廳任職時，設計舉辦的㇐個行銷小活動。
